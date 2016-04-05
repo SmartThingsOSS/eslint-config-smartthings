@@ -1,4 +1,7 @@
 # eslint-config-smartthings
+
+[![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/<package>)
+
 SmartThing's ESLint config, following our style guide.
 Based on [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript)
 
