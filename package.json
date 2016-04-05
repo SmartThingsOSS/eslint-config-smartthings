@@ -1,0 +1,37 @@
+{
+	"name": "eslint-config-smartthings",
+	"version": "2.4.0",
+	"description": "SmartThings's ESLint config",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SmartThingsOSS/eslint-config-smartthings"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig",
+		"config",
+		"smartthings",
+		"javascript",
+		"styleguide"
+	],
+	"author": {
+		"name": "SmartThings",
+		"url": "http://www.smartthings.com"
+	},
+	"contributors": [
+		{
+			"name": "Adan Perez @adanperez",
+			"url": "http://github.com/adanperez"
+		}
+	],
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/SmartThingsOSS/eslint-config-smartthings/issues"
+	},
+	"homepage": "https://github.com/SmartThingsOSS/eslint-config-smartthings",
+	"peerDependencies": {
+		"eslint": "^2.x",
+		"eslint-plugin-react": "^4.x"
+	}
+}
