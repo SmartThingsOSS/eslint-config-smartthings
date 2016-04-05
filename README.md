@@ -2,6 +2,10 @@
 
 [![NPM](https://nodei.co/npm/eslint-config-smartthings.png)](https://npmjs.org/package/eslint-config-smartthings)
 
+[npm-url]: https://www.npmjs.com/package/eslint-config-smartthings
+[npm-image]: https://img.shields.io/npm/v/eslint-config-smartthings.svg?style=flat-square
+[![NPM version][npm-image]][npm-url]
+
 SmartThing's ESLint config, following our style guide.
 Based on [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript)
 
