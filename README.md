@@ -1,9 +1,7 @@
 # eslint-config-smartthings
 
-[![NPM](https://nodei.co/npm/eslint-config-smartthings.png)](https://npmjs.org/package/eslint-config-smartthings)
+[![NPM][nodei-image]][nodei-url]
 
-[npm-url]: https://www.npmjs.com/package/eslint-config-smartthings
-[npm-image]: https://img.shields.io/npm/v/eslint-config-smartthings.svg?style=flat-square
 [![NPM version][npm-image]][npm-url]
 
 SmartThing's ESLint config, following our style guide.
@@ -32,3 +30,8 @@ Lints ES5 and below. Only requires `eslint`.
 - https://github.com/eslint/eslint
 - https://github.com/babel/babel-eslint
 - https://github.com/yannickcr/eslint-plugin-react
+
+[nodei-url]: https://npmjs.org/package/eslint-config-smartthings
+[nodei-image]: https://nodei.co/npm/eslint-config-smartthings.png
+[npm-url]: https://www.npmjs.com/package/eslint-config-smartthings
+[npm-image]: https://img.shields.io/npm/v/eslint-config-smartthings.svg?style=flat-square
