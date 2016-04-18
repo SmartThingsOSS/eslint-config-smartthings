@@ -26,6 +26,8 @@ module.exports = {
 		}],
 		// Enforce or disallow spaces around equal signs in JSX attributes
 		'react/jsx-equals-spacing': [2, 'never'],
+		// Enforce position of the first prop in JSX
+		'react/jsx-first-prop-new-line': 0,
 		// Ensures that any component or prop methods used to handle events are correctly prefixed.
 		'react/jsx-handler-names': [2, {
 			'eventHandlerPrefix': 'handle',
