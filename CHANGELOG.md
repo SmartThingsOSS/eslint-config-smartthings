@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.7.0
+- Added jsx-no-target-blank react rule
+
 ## 2.6.0
 - Added errors/no-unsafe-finally rule
 - Added es6/no-duplicate-imports rule
