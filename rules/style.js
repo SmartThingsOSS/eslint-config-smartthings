@@ -72,6 +72,8 @@ module.exports = {
 		'no-unneeded-ternary': 0,
 		// require or disallow padding inside curly braces
 		'object-curly-spacing': [2, 'always'],
+		// enforce placing object properties on separate lines
+		'object-property-newline': 0,
 		// allow just one var statement per function
 		'one-var': [2, 'never'],
 		// require assignment operator shorthand where possible or prohibit it entirely

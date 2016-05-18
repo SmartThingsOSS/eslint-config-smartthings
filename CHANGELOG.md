@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.8.0
+- Added object-property-newline style rule
+
 ## 2.7.0
 - Added jsx-no-target-blank react rule
 
