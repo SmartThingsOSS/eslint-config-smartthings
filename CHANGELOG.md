@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.9.0
+- Added es6/no-useless-rename rule
+- Added style/unicode-bom rule
+- Added errors/no-prototype-builtins rule
+
 ## 2.8.0
 - Added object-property-newline style rule
 

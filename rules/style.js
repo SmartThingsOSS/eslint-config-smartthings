@@ -112,6 +112,8 @@ module.exports = {
 			'exceptions': ['-', '+'],
 			'markers': ['=', '!']           // space here to support sprockets directives
 		}],
+		// require or disallow the Unicode BOM
+		'unicode-bom': [2, 'never'],
 		// require regex literals to be wrapped in parentheses
 		'wrap-regex': 0
 	}
