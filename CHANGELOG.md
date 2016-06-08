@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.9.1
+- Ignoring es6/no-useless-rename rule
+
 ## 2.9.0
 - Added es6/no-useless-rename rule
 - Added style/unicode-bom rule
