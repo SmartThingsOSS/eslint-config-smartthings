@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.10.0
+- Added es6/rest-spread-spacing rule
+- Added style/no-mixed-operators rule
+- Added style/no-whitespace-before-property rule
+
+
 ## 2.9.1
 - Ignoring es6/no-useless-rename rule
 

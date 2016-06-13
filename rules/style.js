@@ -34,8 +34,20 @@ module.exports = {
 		'lines-around-comment': 0,
 		// disallow mixed 'LF' and 'CRLF' as linebreaks
 		'linebreak-style': 0,
+		// enforce a maximum depth that blocks can be nested
+		'max-depth': 0,
+		// enforce a maximum line length
+		'max-len': 0,
+		// enforce a maximum file length
+		'max-lines': 0,
 		// specify the maximum depth callbacks can be nested
 		'max-nested-callbacks': 0,
+		// enforce a maximum number of parameters in function definitions
+		'max-params': 0,
+		// enforce a maximum number of statements allowed in function blocks
+		'max-statements': 0,
+		// enforce a maximum number of statements allowed per line
+		'max-statements-per-line': 0,
 		// require a capital letter for constructors
 		'new-cap': [2, { 'newIsCap': true }],
 		// disallow the omission of parentheses when invoking a constructor with no arguments
@@ -52,6 +64,8 @@ module.exports = {
 		'no-inline-comments': 0,
 		// disallow if as the only statement in an else block
 		'no-lonely-if': 0,
+		// disallow mixes of different operators
+		'no-mixed-operators': 2,
 		// disallow mixed spaces and tabs for indentation
 		'no-mixed-spaces-and-tabs': 0,
 		// disallow multiple empty lines
@@ -70,6 +84,10 @@ module.exports = {
 		'no-underscore-dangle': 0,
 		// disallow the use of Boolean literals in conditional expressions
 		'no-unneeded-ternary': 0,
+		// disallow whitespace before properties
+		'no-whitespace-before-property': 2,
+		// enforce consistent line breaks inside braces
+		'object-curly-newline': 0,
 		// require or disallow padding inside curly braces
 		'object-curly-spacing': [2, 'always'],
 		// enforce placing object properties on separate lines

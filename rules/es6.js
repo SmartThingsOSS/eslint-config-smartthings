@@ -3,7 +3,10 @@ module.exports = {
 		'es6': true
 	},
 	'parserOptions': {
-		'ecmaVersion': 6
+		'ecmaVersion': 6,
+		'ecmaFeatures': {
+			'experimentalObjectRestSpread': true
+		}
 	},
 	'rules': {
 		// require braces around arrow function bodies
@@ -56,6 +59,8 @@ module.exports = {
 		'prefer-template': 2,
 		// disallow generator functions that do not have yield
 		'require-yield': 0,
+		// enforce spacing between rest and spread operators and their expressions
+		'rest-spread-spacing': [2, 'never'],
 		// enforce sorted import declarations within modules
 		'sort-imports': 0,
 		// require or disallow spacing around embedded expressions of template strings
