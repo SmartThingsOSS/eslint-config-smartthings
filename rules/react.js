@@ -26,6 +26,8 @@ module.exports = {
 		}],
 		// Enforce or disallow spaces around equal signs in JSX attributes
 		'react/jsx-equals-spacing': [2, 'never'],
+		// Restrict file extensions that may contain JSX
+		'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
 		// Enforce position of the first prop in JSX
 		'react/jsx-first-prop-new-line': 0,
 		// Ensures that any component or prop methods used to handle events are correctly prefixed.
@@ -65,6 +67,8 @@ module.exports = {
 		'react/jsx-uses-react': 2,
 		// Prevent variables used in JSX to be incorrectly marked as unused
 		'react/jsx-uses-vars': 2,
+		// Prevent comments from being inserted as text nodes
+		'react/no-comment-textnodes': 2,
 		// Prevent usage of dangerous JSX properties
 		'react/no-danger': 0,
 		// Prevent usage of deprecated methods
@@ -79,6 +83,8 @@ module.exports = {
 		'react/no-is-mounted': 2,
 		// Prevent multiple component definition per file
 		'react/no-multi-comp': 2,
+		// Prevent usage of the return value of React.render
+		'react/no-render-return-value': 2,
 		// Prevent usage of setState
 		'react/no-set-state': 0,
 		// Prevent usage of unknown DOM property
@@ -93,6 +99,8 @@ module.exports = {
 		'react/react-in-jsx-scope': 2,
 		// Restrict file extensions that may be required
 		'react/require-extension': 0,
+		// Enforce React components to have a shouldComponentUpdate method
+		'react/require-optimization': 0,
 		// Prevent extra closing tags for components without children
 		'react/self-closing-comp': 2,
 		// Enforce component methods order
