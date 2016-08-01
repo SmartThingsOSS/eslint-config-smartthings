@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.12.0
+- Removed rules/legacy.js
+- Adding missing rules currently in ESLint 3.2.0 to best-practices, errors and style.
+
+## 2.11.0
+- Added react/no-comment-textnodes rule
+- Added react/no-render-return-value rule
+- Added react/jsx-filename-extension warning rule
+
 ## 2.11.0
 - Added react/no-comment-textnodes rule
 - Added react/no-render-return-value rule

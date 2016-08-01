@@ -2,6 +2,8 @@ module.exports = {
 	'rules': {
 		// Enforces getter/setter pairs in objects
 		'accessor-pairs': 0,
+		// enforce return statements in callbacks of array methods
+		'array-callback-return': 1,
 		// treat var statements as if they were block scoped
 		'block-scoped-var': 2,
 		// specify the maximum cyclomatic complexity allowed in a program
@@ -40,12 +42,16 @@ module.exports = {
 		'no-extend-native': 2,
 		// disallow unnecessary function binding
 		'no-extra-bind': 2,
+		// disallow unnecessary labels
+		'no-extra-label': 2,
 		// disallow fallthrough of case statements
 		'no-fallthrough': 2,
 		// disallow the use of leading or trailing decimal points in numeric literals
 		'no-floating-decimal': 2,
 		// disallow the type conversions with shorter notations
 		'no-implicit-coercion': 0,
+		// disallow var and named function declarations in the global scope
+		'no-implicit-globals': 1,
 		// disallow use of eval()-like methods
 		'no-implied-eval': 2,
 		// disallow this keywords outside of classes or class-like objects
@@ -58,6 +64,8 @@ module.exports = {
 		'no-lone-blocks': 2,
 		// disallow creation of functions within loops
 		'no-loop-func': 2,
+		// disallow magic numbers
+		'no-magic-numbers': 1,
 		// disallow use of multiple spaces
 		'no-multi-spaces': 2,
 		// disallow use of multiline strings
@@ -95,12 +103,18 @@ module.exports = {
 		'no-sequences': 2,
 		// restrict what can be thrown as an exception
 		'no-throw-literal': 2,
+		// disallow unmodified loop conditions
+		'no-unmodified-loop-condition': 0,
 		// disallow usage of expressions in statement position
 		'no-unused-expressions': 2,
 		// disallow unused labels
 		'no-unused-labels': 2,
 		// disallow unnecessary .call() and .apply()
 		'no-useless-call': 0,
+		// disallow unnecessary concatenation of literals or template literals
+		'no-useless-concat': 2,
+		// disallow unnecessary escape characters
+		'no-useless-escape': 2,
 		// disallow use of void operator
 		'no-void': 0,
 		// disallow usage of configurable warning terms in comments: e.g. todo

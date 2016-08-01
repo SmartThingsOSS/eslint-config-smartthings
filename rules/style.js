@@ -2,10 +2,14 @@ module.exports = {
 	'rules': {
 		// enforce spacing inside array brackets
 		'array-bracket-spacing': 0,
+		// enforce consistent spacing inside single-line blocks
+		'block-spacing': [2, 'always'],
 		// enforce one true brace style
 		'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
 		// require camel case names
 		'camelcase': [2, { 'properties': 'never' }],
+		// require or disallow trailing commas
+		'comma-dangle': [2, 'never'],
 		// enforce spacing before and after comma
 		'comma-spacing': [2, { 'before': false, 'after': true }],
 		// enforce one true comma style
@@ -19,7 +23,7 @@ module.exports = {
 		// require function expressions to have a name
 		'func-names': 1,
 		// enforces use of function declarations or expressions
-		'func-style': 0,
+		'func-style': [2, 'declaration', { 'allowArrowFunctions': true }],
 		// this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
 		'id-length': [2, { 'min': 2, 'properties': 'never' }],
 		// this option sets a specific tab width for your code
@@ -48,34 +52,46 @@ module.exports = {
 		'max-statements': 0,
 		// enforce a maximum number of statements allowed per line
 		'max-statements-per-line': 0,
+		// enforce newlines between operands of ternary expressions
+		'multiline-ternary': 0,
 		// require a capital letter for constructors
 		'new-cap': [2, { 'newIsCap': true }],
 		// disallow the omission of parentheses when invoking a constructor with no arguments
-		'new-parens': 0,
+		'new-parens': 2,
 		// allow/disallow an empty newline after var statement
 		'newline-after-var': 0,
 		// require newline before return statement
 		'newline-before-return': 0,
 		// disallow use of the Array constructor
-		'no-array-constructor': 0,
+		'no-array-constructor': 2,
+		// disallow bitwise operators
+		'no-bitwise': 0,
 		// disallow use of the continue statement
 		'no-continue': 0,
 		// disallow comments inline after code
 		'no-inline-comments': 0,
 		// disallow if as the only statement in an else block
-		'no-lonely-if': 0,
+		'no-lonely-if': 2,
 		// disallow mixes of different operators
 		'no-mixed-operators': 2,
 		// disallow mixed spaces and tabs for indentation
-		'no-mixed-spaces-and-tabs': 0,
+		'no-mixed-spaces-and-tabs': [2, 'smart-tabs'],
 		// disallow multiple empty lines
 		'no-multiple-empty-lines': [2, { 'max': 2 }],
+		// disallow negated conditions
+		'no-negated-condition': 1,
 		// disallow nested ternary expressions
 		'no-nested-ternary': 2,
 		// disallow use of the Object constructor
 		'no-new-object': 2,
+		// disallow the unary operators ++ and --
+		'no-plusplus': 0,
+		// disallow specified syntax
+		'no-restricted-syntax': 0,
 		// disallow space between function identifier and application
 		'no-spaced-func': 2,
+		// disallow tabs
+		'no-tabs': 0,
 		// disallow the use of ternary operators
 		'no-ternary': 0,
 		// disallow trailing whitespace at the end of lines
@@ -92,6 +108,8 @@ module.exports = {
 		'object-curly-spacing': [2, 'always'],
 		// enforce placing object properties on separate lines
 		'object-property-newline': 0,
+		// require or disallow newlines around var declarations
+		'one-var-declaration-per-line': [2, 'always'],
 		// allow just one var statement per function
 		'one-var': [2, 'never'],
 		// require assignment operator shorthand where possible or prohibit it entirely
@@ -104,6 +122,8 @@ module.exports = {
 		'quote-props': 0,
 		// specify whether double or single quotes should be used
 		'quotes': [2, 'single', 'avoid-escape'],
+		// require JSDoc comments
+		'require-jsdoc': 0,
 		// require identifiers to match the provided regular expression
 		'id-match': 0,
 		// enforce spacing before and after semicolons
