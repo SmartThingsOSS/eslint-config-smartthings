@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.13.0
+- Added react/no-find-dom-node rule
+- Updated react rules and settings to be compatible with eslint-plugin-react 6.0.0
+
 ## 2.12.0
 - Removed rules/legacy.js
 - Adding missing rules currently in ESLint 3.2.0 to best-practices, errors and style.

@@ -49,6 +49,8 @@ module.exports = {
 			'allowArrowFunctions': true,
 			'allowBind': false
 		}],
+		// Prevent comments from being inserted as text nodes
+		'react/jsx-no-comment-textnodes': 2,
 		// Prevent duplicate props in JSX
 		'react/jsx-no-duplicate-props': [2, { 'ignoreCase': true }],
 		// Prevent usage of unwrapped JSX strings
@@ -67,18 +69,20 @@ module.exports = {
 		'react/jsx-uses-react': 2,
 		// Prevent variables used in JSX to be incorrectly marked as unused
 		'react/jsx-uses-vars': 2,
-		// Prevent comments from being inserted as text nodes
-		'react/no-comment-textnodes': 2,
+		// Prevent missing parentheses around multilines JSX
+		'react/jsx-wrap-multilines': 2,
 		// Prevent usage of dangerous JSX properties
 		'react/no-danger': 0,
 		// Prevent usage of deprecated methods
 		'react/no-deprecated': 2,
 		// Prevent usage of setState in componentDidMount
-		'react/no-did-mount-set-state': [2, 'allow-in-func'],
+		'react/no-did-mount-set-state': 2,
 		// Prevent usage of setState in componentDidUpdate
-		'react/no-did-update-set-state': [2, 'allow-in-func'],
+		'react/no-did-update-set-state': 2,
 		// Prevent direct mutation of this.state
 		'react/no-direct-mutation-state': 2,
+		// Prevent usage of findDOMNode
+		'react/no-find-dom-node': 2,
 		// Prevent usage of isMounted
 		'react/no-is-mounted': 2,
 		// Prevent multiple component definition per file
@@ -97,8 +101,6 @@ module.exports = {
 		'react/prop-types': 2,
 		// Prevent missing React when using JSX
 		'react/react-in-jsx-scope': 2,
-		// Restrict file extensions that may be required
-		'react/require-extension': 0,
 		// Enforce React components to have a shouldComponentUpdate method
 		'react/require-optimization': 0,
 		// Prevent extra closing tags for components without children
@@ -115,8 +117,6 @@ module.exports = {
 			]
 		}],
 		// Enforce propTypes declarations alphabetical sorting
-		'react/sort-prop-types': 0,
-		// Prevent missing parentheses around multilines JSX
-		'react/wrap-multilines': 2
+		'react/sort-prop-types': 0
 	}
 };
