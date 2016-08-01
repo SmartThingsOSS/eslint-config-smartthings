@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.13.1
+- Updating peer dependencies of eslint and eslint-plugin-react
+
 ## 2.13.0
 - Added react/no-find-dom-node rule
 - Updated react rules and settings to be compatible with eslint-plugin-react 6.0.0
