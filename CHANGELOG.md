@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.14.1
+- Fixed incorrect setting for style/func-call-spacing rule
+- Fixed missing prefix for react/no-danger-with-children rule
+
 ## 2.14.0
 - Added best-practices/no-global-assign rule
 - Added errors/no-template-curly-in-string rule
