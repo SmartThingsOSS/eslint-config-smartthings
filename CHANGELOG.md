@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.14.0
+- Added best-practices/no-global-assign rule
+- Added errors/no-template-curly-in-string rule
+- Added errors/no-unsafe-negation rule
+- Added react/forbid-component-props rule
+- Added react/no-danger-with-children rule
+- Added style/func-call-spacing rule
+
 ## 2.13.1
 - Updating peer dependencies of eslint and eslint-plugin-react
 

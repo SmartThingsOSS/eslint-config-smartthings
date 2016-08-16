@@ -36,8 +36,6 @@ module.exports = {
 		'no-invalid-regexp': 2,
 		// disallow irregular whitespace outside of strings and comments
 		'no-irregular-whitespace': 2,
-		// disallow negation of the left operand of an in expression
-		'no-negated-in-lhs': 2,
 		// disallow the use of object properties of the global object (Math and JSON) as functions
 		'no-obj-calls': 2,
 		// Disallow use of Object.prototypes builtins directly
@@ -46,12 +44,16 @@ module.exports = {
 		'no-regex-spaces': 2,
 		// disallow sparse arrays
 		'no-sparse-arrays': 2,
+		// Disallow template literal placeholder syntax in regular strings
+		'no-template-curly-in-string': 2,
 		// Avoid code that looks like two expressions but is actually one
 		'no-unexpected-multiline': 1,
 		// disallow unreachable statements after a return, throw, continue, or break statement
 		'no-unreachable': 2,
 		// disallow control flow statements in finally blocks
 		'no-unsafe-finally': 2,
+		// disallow negating the left operand of relational operators
+		'no-unsafe-negation': 2,
 		// disallow comparisons with the value NaN
 		'use-isnan': 2,
 		// ensure JSDoc comments are valid

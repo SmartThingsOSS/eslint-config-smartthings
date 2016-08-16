@@ -20,6 +20,8 @@ module.exports = {
 		'consistent-this': 0,
 		// enforce newline at the end of file, with no multiple empty lines
 		'eol-last': 2,
+		// require or disallow spacing between function identifiers and their invocations
+		'func-call-spacing': [2, 'always'],
 		// require function expressions to have a name
 		'func-names': 1,
 		// enforces use of function declarations or expressions
@@ -88,8 +90,6 @@ module.exports = {
 		'no-plusplus': 0,
 		// disallow specified syntax
 		'no-restricted-syntax': 0,
-		// disallow space between function identifier and application
-		'no-spaced-func': 2,
 		// disallow tabs
 		'no-tabs': 0,
 		// disallow the use of ternary operators
@@ -130,6 +130,8 @@ module.exports = {
 		'semi-spacing': [2, { 'before': false, 'after': true }],
 		// require or disallow use of semicolons instead of ASI
 		'semi': [2, 'always'],
+		// requires object keys to be sorted
+		'sort-keys': 0,
 		// sort variables within the same declaration block
 		'sort-vars': 0,
 		// require or disallow space before blocks
