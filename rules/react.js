@@ -12,7 +12,7 @@ module.exports = {
 		// Prevent missing displayName in a React component definition
 		'react/display-name': 0,
 		// Forbid certain props on Components
-		'react/forbid-component-props': 2,
+		'react/forbid-component-props': 0,
 		// Checks all JSX components and verifies that no forbidden propsTypes are used.
 		'react/forbid-prop-types': 0,
 		// Enforce boolean attributes notation in JSX

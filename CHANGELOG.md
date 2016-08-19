@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.14.2
+- Turned off react/forbid-component-props from being an error
+
 ## 2.14.1
 - Fixed incorrect setting for style/func-call-spacing rule
 - Fixed missing prefix for react/no-danger-with-children rule

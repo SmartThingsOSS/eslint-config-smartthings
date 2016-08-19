@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-smartthings",
-	"version": "2.14.1",
+	"version": "2.14.2",
 	"description": "SmartThings's ESLint config",
 	"main": "index.js",
 	"repository": {
