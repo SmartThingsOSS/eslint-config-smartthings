@@ -49,6 +49,8 @@ module.exports = {
 		'prefer-arrow-callback': [2, { 'allowNamedFunctions': true }],
 		// suggest using of const declaration for variables that are never modified after declared
 		'prefer-const': 2,
+		// disallow parseInt() in favor of binary, octal, and hexadecimal literals
+		'prefer-numeric-literals': 2,
 		// suggest using Reflect methods where applicable
 		'prefer-reflect': 0,
 		// require rest parameters instead of arguments
@@ -63,6 +65,8 @@ module.exports = {
 		'rest-spread-spacing': [2, 'never'],
 		// enforce sorted import declarations within modules
 		'sort-imports': 0,
+		// require symbol description
+		'symbol-description': 1,
 		// require or disallow spacing around embedded expressions of template strings
 		'template-curly-spacing': [2, 'never'],
 		// require or disallow spacing around the * in yield* expressions

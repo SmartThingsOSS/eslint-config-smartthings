@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.15.0
+- Added es6/prefer-numeric-literals rule
+- Added warning for es6/symbol-description rule
+- Added react/no-unused-prop-types rule
+- Added react/style-prop-object rule
+
 ## 2.14.2
 - Turned off react/forbid-component-props from being an error
 

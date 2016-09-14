@@ -97,6 +97,8 @@ module.exports = {
 		'react/no-set-state': 0,
 		// Prevent usage of unknown DOM property
 		'react/no-unknown-property': 2,
+		// Prevent definitions of unused prop types
+		'react/no-unused-prop-types': [2, { customValidators: [], skipShapeProps: true }],
 		// Prefer es6 class instead of createClass for React Components
 		'react/prefer-es6-class': 2,
 		// Enforce stateless React Components to be written as a pure function
@@ -121,6 +123,8 @@ module.exports = {
 			]
 		}],
 		// Enforce propTypes declarations alphabetical sorting
-		'react/sort-prop-types': 0
+		'react/sort-prop-types': 0,
+		// Enforce style prop value being an object
+		'react/style-prop-object': 2
 	}
 };

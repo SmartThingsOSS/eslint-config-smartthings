@@ -36,8 +36,12 @@ module.exports = {
 		'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
 		// enforce spacing before and after keywords
 		'keyword-spacing': [2, { 'before': true, 'after': true, 'overrides': {}}],
+		// enforce position of line comments
+		'line-comment-position': 0,
 		// enforces empty lines around comments
 		'lines-around-comment': 0,
+		// require or disallow newlines around directives
+		'lines-around-directive': 0,
 		// disallow mixed 'LF' and 'CRLF' as linebreaks
 		'linebreak-style': 0,
 		// enforce a maximum depth that blocks can be nested
