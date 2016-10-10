@@ -73,6 +73,8 @@ module.exports = {
 		'react/jsx-uses-vars': 2,
 		// Prevent missing parentheses around multilines JSX
 		'react/jsx-wrap-multilines': 2,
+		// Prevent passing of children as props
+		'react/no-children-prop': 2,
 		// Prevent usage of dangerous JSX properties
 		'react/no-danger': 0,
 		// Prevent problem with children and props.dangerouslySetInnerHTML
@@ -95,10 +97,12 @@ module.exports = {
 		'react/no-render-return-value': 2,
 		// Prevent usage of setState
 		'react/no-set-state': 0,
+		// Prevent invalid characters from appearing in markup (no-unescaped-entities)
+		'react/no-unescaped-entities': 1,
 		// Prevent usage of unknown DOM property
 		'react/no-unknown-property': 2,
 		// Prevent definitions of unused prop types
-		'react/no-unused-prop-types': [2, { customValidators: [], skipShapeProps: true }],
+		'react/no-unused-prop-types': [2, { customValidators: [], skipShapeProps: true, skipUndeclared: true }],
 		// Prefer es6 class instead of createClass for React Components
 		'react/prefer-es6-class': 2,
 		// Enforce stateless React Components to be written as a pure function

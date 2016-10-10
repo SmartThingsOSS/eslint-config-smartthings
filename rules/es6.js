@@ -3,7 +3,8 @@ module.exports = {
 		'es6': true
 	},
 	'parserOptions': {
-		'ecmaVersion': 6,
+		'ecmaVersion': 7,
+		'sourceType': 'module',
 		'ecmaFeatures': {
 			'experimentalObjectRestSpread': true
 		}

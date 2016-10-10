@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.16.0
+- Updated es6.js ecmaVersion to 7 and sourceType to module
+- Added react/no-children-prop rule
+- Added react/no-unescaped-entities rule
+
 ## 2.15.0
 - Added es6/prefer-numeric-literals rule
 - Added warning for es6/symbol-description rule
