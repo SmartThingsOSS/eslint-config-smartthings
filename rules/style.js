@@ -22,6 +22,8 @@ module.exports = {
 		'eol-last': 2,
 		// require or disallow spacing between function identifiers and their invocations
 		'func-call-spacing': [2, 'never'],
+		// require function names to match the name of the variable or property to which they are assigned
+		'func-name-matching': 1,
 		// require function expressions to have a name
 		'func-names': 1,
 		// enforces use of function declarations or expressions

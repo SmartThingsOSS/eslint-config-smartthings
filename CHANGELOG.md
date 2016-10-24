@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.17.0
+- Added style/func-name-matching rule warning
+
 ## 2.16.0
 - Updated es6.js ecmaVersion to 7 and sourceType to module
 - Added react/no-children-prop rule
