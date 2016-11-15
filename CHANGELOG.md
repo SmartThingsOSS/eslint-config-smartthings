@@ -2,6 +2,8 @@
 
 ## 2.17.0
 - Added style/func-name-matching rule warning
+- Added best-practices/no-return-await rule
+- Added react/jsx-tag-spacing rule
 
 ## 2.16.0
 - Updated es6.js ecmaVersion to 7 and sourceType to module

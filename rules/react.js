@@ -67,6 +67,12 @@ module.exports = {
 		'react/jsx-sort-props': 0,
 		// Validate spacing before closing bracket in JSX
 		'react/jsx-space-before-closing': [2, 'always'],
+		// Validate whitespace in and around the JSX opening and closing brackets
+		'react/jsx-tag-spacing': [2, {
+			'closingSlash': 'never',
+			'beforeSelfClosing': 'always',
+			'afterOpening': 'never'
+		}],
 		// Prevent React to be incorrectly marked as unused
 		'react/jsx-uses-react': 2,
 		// Prevent variables used in JSX to be incorrectly marked as unused
