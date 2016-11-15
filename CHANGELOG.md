@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.17.1
+- Fixed change to react/no-unused-prop-types rule
+
 ## 2.17.0
 - Added style/func-name-matching rule warning
 - Added best-practices/no-return-await rule

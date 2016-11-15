@@ -108,7 +108,7 @@ module.exports = {
 		// Prevent usage of unknown DOM property
 		'react/no-unknown-property': 2,
 		// Prevent definitions of unused prop types
-		'react/no-unused-prop-types': [2, { customValidators: [], skipShapeProps: true, skipUndeclared: true }],
+		'react/no-unused-prop-types': [2, { customValidators: [], skipShapeProps: true }],
 		// Prefer es6 class instead of createClass for React Components
 		'react/prefer-es6-class': 2,
 		// Enforce stateless React Components to be written as a pure function
