@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.17.2
+- Fixed change to react/jsx-curly-spacing rule
+
 ## 2.17.1
 - Fixed change to react/no-unused-prop-types rule
 
