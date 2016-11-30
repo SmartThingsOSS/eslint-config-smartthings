@@ -8,6 +8,8 @@ module.exports = {
 		'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
 		// require camel case names
 		'camelcase': [2, { 'properties': 'never' }],
+		// enforce or disallow capitalization of the first letter of a comment
+		'capitalized-comments': 0,
 		// require or disallow trailing commas
 		'comma-dangle': [2, 'never'],
 		// enforce spacing before and after comma

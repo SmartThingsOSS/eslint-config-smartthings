@@ -69,7 +69,7 @@ module.exports = {
 		// disallow creation of functions within loops
 		'no-loop-func': 2,
 		// disallow magic numbers
-		'no-magic-numbers': 1,
+		'no-magic-numbers': 0,
 		// disallow use of multiple spaces
 		'no-multi-spaces': 2,
 		// disallow use of multiline strings
@@ -127,6 +127,8 @@ module.exports = {
 		'no-with': 2,
 		// require use of the second argument for parseInt()
 		'radix': 2,
+		// disallow async functions which have no await expression
+		'require-await': 2,
 		// requires to declare all vars on top of their containing scope
 		'vars-on-top': 2,
 		// require immediate function invocation to be wrapped in parentheses

@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.18.0
+- Removed best-practices/no-magic-numbers warning
+- Added best-practices/require-await rule
+
 ## 2.17.2
 - Fixed change to react/jsx-curly-spacing rule
 
