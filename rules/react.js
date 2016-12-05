@@ -81,6 +81,8 @@ module.exports = {
 		'react/jsx-uses-vars': 2,
 		// Prevent missing parentheses around multilines JSX
 		'react/jsx-wrap-multilines': 2,
+		// Prevent usage of Array index in keys
+		'react/no-array-index-key': 2,
 		// Prevent passing of children as props
 		'react/no-children-prop': 2,
 		// Prevent usage of dangerous JSX properties
@@ -119,6 +121,8 @@ module.exports = {
 		'react/prop-types': 2,
 		// Prevent missing React when using JSX
 		'react/react-in-jsx-scope': 2,
+		// Enforce a defaultProps definition for every prop that is not a required prop
+		'react/require-default-props': 0,
 		// Enforce React components to have a shouldComponentUpdate method
 		'react/require-optimization': 0,
 		// Prevent extra closing tags for components without children

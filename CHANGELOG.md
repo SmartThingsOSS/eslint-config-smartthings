@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.19.0
+- Removed style/id-length rule
+- Added react/no-array-index-key rule
+
 ## 2.18.0
 - Removed best-practices/no-magic-numbers warning
 - Added best-practices/require-await rule
