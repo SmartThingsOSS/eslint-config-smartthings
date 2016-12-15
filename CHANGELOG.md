@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.20.0
+- Enforcing errors/no-console rule
+- Added errors/no-await-in-loop rule
+- Removed best-practices/no-case-declarations rule
+
 ## 2.19.0
 - Removed style/id-length rule
 - Added react/no-array-index-key rule
