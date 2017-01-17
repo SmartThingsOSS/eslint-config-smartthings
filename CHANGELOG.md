@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.21.0
+- Updated with ESLint 3.13.0 and eslint-plugin-react 6.9.0.  No new rules added.
+
 ## 2.20.0
 - Enforcing errors/no-console rule
 - Added errors/no-await-in-loop rule
