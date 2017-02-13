@@ -1,5 +1,8 @@
 # Change Log
 
+## 2.22.0
+- Added style/template-tag-spacing rule
+
 ## 2.21.0
 - Updated with ESLint 3.13.0 and eslint-plugin-react 6.9.0.  No new rules added.
 

@@ -160,6 +160,8 @@ module.exports = {
 			'exceptions': ['-', '+'],
 			'markers': ['=', '!']           // space here to support sprockets directives
 		}],
+		// Require or disallow spacing between template tags and their literals (template-tag-spacing)
+		'template-tag-spacing': [2, 'never'],
 		// require or disallow the Unicode BOM
 		'unicode-bom': [2, 'never'],
 		// require regex literals to be wrapped in parentheses
