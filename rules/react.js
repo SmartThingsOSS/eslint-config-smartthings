@@ -13,6 +13,10 @@ module.exports = {
 		'react/display-name': 0,
 		// Forbid certain props on Components
 		'react/forbid-component-props': 0,
+		// Forbid certain elements (forbid-elements)
+		'react/forbid-elements': 0,
+		// Forbid foreign propTypes (forbid-foreign-prop-types)
+		'react/forbid-foreign-prop-types': 2,
 		// Checks all JSX components and verifies that no forbidden propsTypes are used.
 		'react/forbid-prop-types': 0,
 		// Enforce boolean attributes notation in JSX
@@ -141,6 +145,8 @@ module.exports = {
 		// Enforce propTypes declarations alphabetical sorting
 		'react/sort-prop-types': 0,
 		// Enforce style prop value being an object
-		'react/style-prop-object': 2
+		'react/style-prop-object': 2,
+		// Prevent void DOM elements (e.g. <img />, <br />) from receiving children
+		'react/void-dom-elements-no-children': 2
 	}
 };

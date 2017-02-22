@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.23.0
+- Added react/void-dom-elements-no-children rule
+- Added react/forbid-foreign-prop-types rule
+
 ## 2.22.0
 - Added style/template-tag-spacing rule
 
