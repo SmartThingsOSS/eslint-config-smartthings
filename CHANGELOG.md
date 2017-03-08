@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.24.0
+- Added best-practices/curly consistent option
+- Added errors/no-compare-neg-zero rule
+
 ## 2.23.0
 - Added react/void-dom-elements-no-children rule
 - Added react/forbid-foreign-prop-types rule

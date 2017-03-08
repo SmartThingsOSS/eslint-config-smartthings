@@ -110,6 +110,8 @@ module.exports = {
 		'no-unneeded-ternary': 0,
 		// disallow whitespace before properties
 		'no-whitespace-before-property': 2,
+		// enforce the location of single-line statements
+		'nonblock-statement-body-position': 0,
 		// enforce consistent line breaks inside braces
 		'object-curly-newline': 0,
 		// require or disallow padding inside curly braces

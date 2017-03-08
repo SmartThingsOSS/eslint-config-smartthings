@@ -13,7 +13,7 @@ module.exports = {
 		// require return statements to either always or never specify values
 		'consistent-return': 2,
 		// specify curly brace conventions for all control statements
-		'curly': [2, 'multi-line'],
+		'curly': [2, 'multi-line', 'consistent'],
 		// require default case in switch statements
 		'default-case': 2,
 		// encourages use of dot notation whenever possible
