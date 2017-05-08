@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.25.0
+- Added react/no-will-update-set-state rule
+- Updated base eslint-plugin-react dependency to 7.0.0
+
 ## 2.24.0
 - Added best-practices/curly consistent option
 - Added errors/no-compare-neg-zero rule
