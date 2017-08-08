@@ -1,7 +1,11 @@
 module.exports = {
 	'rules': {
+		// enforce line breaks after opening and before closing array brackets
+		'array-bracket-newline': 0,
 		// enforce spacing inside array brackets
 		'array-bracket-spacing': 0,
+		// enforce line breaks after each array element
+		'array-element-newline': 0,
 		// enforce consistent spacing inside single-line blocks
 		'block-spacing': [2, 'always'],
 		// enforce one true brace style
@@ -44,8 +48,6 @@ module.exports = {
 		'line-comment-position': 0,
 		// enforces empty lines around comments
 		'lines-around-comment': 0,
-		// require or disallow newlines around directives
-		'lines-around-directive': 0,
 		// disallow mixed 'LF' and 'CRLF' as linebreaks
 		'linebreak-style': 0,
 		// enforce a maximum depth that blocks can be nested
@@ -68,10 +70,6 @@ module.exports = {
 		'new-cap': [2, { 'newIsCap': true }],
 		// disallow the omission of parentheses when invoking a constructor with no arguments
 		'new-parens': 2,
-		// allow/disallow an empty newline after var statement
-		'newline-after-var': 0,
-		// require newline before return statement
-		'newline-before-return': 0,
 		// disallow use of the Array constructor
 		'no-array-constructor': 2,
 		// disallow bitwise operators
@@ -128,6 +126,8 @@ module.exports = {
 		'operator-linebreak': 0,
 		// enforce padding within blocks
 		'padded-blocks': [2, 'never'],
+		// require or disallow padding lines between statements
+		'padding-line-between-statements': 0,
 		// require quotes around object literal property names
 		'quote-props': 0,
 		// specify whether double or single quotes should be used
@@ -136,10 +136,12 @@ module.exports = {
 		'require-jsdoc': 0,
 		// require identifiers to match the provided regular expression
 		'id-match': 0,
-		// enforce spacing before and after semicolons
-		'semi-spacing': [2, { 'before': false, 'after': true }],
 		// require or disallow use of semicolons instead of ASI
 		'semi': [2, 'always'],
+		// enforce spacing before and after semicolons
+		'semi-spacing': [2, { 'before': false, 'after': true }],
+		// enforce location of semicolons
+		'semi-style': [2, 'last'],
 		// requires object keys to be sorted
 		'sort-keys': 0,
 		// sort variables within the same declaration block
@@ -162,6 +164,8 @@ module.exports = {
 			'exceptions': ['-', '+'],
 			'markers': ['=', '!']           // space here to support sprockets directives
 		}],
+		// enforce spacing around colons of switch statements
+		'switch-colon-spacing': 2,
 		// Require or disallow spacing between template tags and their literals (template-tag-spacing)
 		'template-tag-spacing': [2, 'never'],
 		// require or disallow the Unicode BOM

@@ -1,5 +1,14 @@
 # Change Log
 
+## 3.0.0
+- Updated base eslint dependency to 4.0.0
+- Added errors/for-direction rule
+- Added errors/getter-return rule
+- Added node/no-buffer-constructor rule
+- Added style/semi-style rule
+- Added style/switch-colon-spacing rule
+- Removed react/jsx-space-before-closing rule
+
 ## 2.25.0
 - Added react/no-will-update-set-state rule
 - Updated base eslint-plugin-react dependency to 7.0.0

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-smartthings",
-	"version": "2.25.0",
+	"version": "3.0.0",
 	"description": "SmartThings's ESLint config",
 	"main": "index.js",
 	"repository": {
@@ -31,7 +31,7 @@
 	},
 	"homepage": "https://github.com/SmartThingsOSS/eslint-config-smartthings",
 	"peerDependencies": {
-		"eslint": "^3.0.0",
+		"eslint": "^4.0.0",
 		"eslint-plugin-react": "^7.0.0"
 	}
 }

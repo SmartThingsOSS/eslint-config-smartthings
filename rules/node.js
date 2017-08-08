@@ -9,6 +9,8 @@ module.exports = {
 		'global-require': 2,
 		// enforces error handling in callbacks (node environment)
 		'handle-callback-err': 0,
+		// disallow use of the Buffer() constructor
+		'no-buffer-constructor': 2,
 		// disallow mixing regular variable and require declarations
 		'no-mixed-requires': [0, false],
 		// disallow use of new operator with the require function

@@ -54,8 +54,6 @@ module.exports = {
 		'prefer-destructuring': 0,
 		// disallow parseInt() in favor of binary, octal, and hexadecimal literals
 		'prefer-numeric-literals': 2,
-		// suggest using Reflect methods where applicable
-		'prefer-reflect': 0,
 		// require rest parameters instead of arguments
 		'prefer-rest-params': 0,
 		// suggest using the spread operator instead of .apply()
