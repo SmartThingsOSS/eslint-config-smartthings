@@ -34,6 +34,8 @@ module.exports = {
 		'func-names': 1,
 		// enforces use of function declarations or expressions
 		'func-style': [2, 'declaration', { 'allowArrowFunctions': true }],
+		// enforce consistent line breaks inside function parentheses
+		'function-paren-newline': 0,
 		// this option enforces minimum and maximum identifier lengths (variable names, property names etc.)
 		'id-length': 0,
 		// this option sets a specific tab width for your code

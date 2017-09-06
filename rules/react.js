@@ -9,6 +9,8 @@ module.exports = {
 		}
 	},
 	'rules': {
+		// Enforces consistent naming for boolean props
+		'react/boolean-prop-naming': 0,
 		// Prevent missing displayName in a React component definition
 		'react/display-name': 0,
 		// Forbid certain props on Components
@@ -109,6 +111,10 @@ module.exports = {
 		'react/no-render-return-value': 2,
 		// Prevent usage of setState
 		'react/no-set-state': 0,
+		// Prevents common typos
+		'react/no-typos': 0,
+		// Prevent unused state
+		'react/no-unused-state': 0,
 		// Prevent invalid characters from appearing in markup (no-unescaped-entities)
 		'react/no-unescaped-entities': 1,
 		// Prevent usage of unknown DOM property
