@@ -1,15 +1,13 @@
 module.exports = {
-	'env': {
-		'es6': true
+	env: {
+		es6: true
 	},
-	'parserOptions': {
-		'ecmaVersion': 7,
-		'sourceType': 'module',
-		'ecmaFeatures': {
-			'experimentalObjectRestSpread': true
-		}
+	parserOptions: {
+		ecmaVersion: 2018,
+		sourceType: 'module',
+		ecmaFeatures: {}
 	},
-	'rules': {
+	rules: {
 		// require braces around arrow function bodies
 		'arrow-body-style': 0,
 		// require parens in arrow function arguments
@@ -47,7 +45,7 @@ module.exports = {
 		// require method and property shorthand syntax for object literals
 		'object-shorthand': 0,
 		// require arrow functions as callbacks
-		'prefer-arrow-callback': [2, { 'allowNamedFunctions': true }],
+		'prefer-arrow-callback': [2, { allowNamedFunctions: true }],
 		// suggest using of const declaration for variables that are never modified after declared
 		'prefer-const': 2,
 		// require destructuring from arrays and/or objects
