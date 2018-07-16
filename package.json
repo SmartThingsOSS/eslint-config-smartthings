@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-smartthings",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"description": "SmartThings's ESLint config",
 	"main": "index.js",
 	"repository": {
@@ -23,6 +23,10 @@
 		{
 			"name": "Adan Perez @adanperez",
 			"url": "http://github.com/adanperez"
+		},
+		{
+			"name": "Nayeemuddin Khan @nayeemuddin.khan",
+			"url": "https://github.com/Nayeemuddin-khan"
 		}
 	],
 	"license": "Apache-2.0",
@@ -32,7 +36,7 @@
 	},
 	"homepage": "https://github.com/SmartThingsOSS/eslint-config-smartthings",
 	"peerDependencies": {
-		"eslint": "^4.0.0",
-		"eslint-plugin-react": "^7.0.0"
+		"eslint": "^5.1.0",
+		"eslint-plugin-react": "^7.7.0"
 	}
 }
