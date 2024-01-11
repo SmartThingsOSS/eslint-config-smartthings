@@ -1,5 +1,14 @@
 # Change Log
 
+## 3.2.0
+- Updated base eslint dependency to include 8.0
+- Updated copyright to Samsung Electronics Co., LTD
+
+## 3.1.0
+- Updated base eslint dependency to 5.1.0 and eslint-plugin-react to 7.7.0
+- Updated to ecmaVersion: 2018
+- Updated/removed ecmaFeatures
+
 ## 3.0.0
 - Updated base eslint dependency to 4.0.0
 - Added errors/for-direction rule
